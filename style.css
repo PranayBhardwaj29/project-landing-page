@@ -47,6 +47,12 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    padding-bottom: 16px;
+}
+
+.some_more_main {
+    flex-wrap: wrap;
+    max-width: 500px;
 }
 
 .quote {
@@ -68,7 +74,7 @@ header {
 
 .link {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .main {
@@ -84,17 +90,25 @@ img {
     height: auto;
 }
 
-.some_more_main {
-    flex-wrap: wrap;
-    max-width: 500px;
-} 
-
 .center img {
+    max-width: 250px;
+    height: auto;
     border-radius: 20px;
+    border: 5px solid #3882f6;
 }
 
 .center {
     padding-top: 100px;
-    
     padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_cont {
+    display: flex;
+    gap: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
 }

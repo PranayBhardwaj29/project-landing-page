@@ -133,3 +133,25 @@ footer {
     padding: 24px 24px;
     justify-content: center;
 }
+
+.last {
+    padding: 50px 75px 50px 75px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#call {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#last_button {
+    border: 2px solid white;
+}
+
+.last_container {
+    padding: 100px;
+}
